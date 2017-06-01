@@ -2,17 +2,11 @@ package tourist.rozsa.daniel.hu.presenter;
 
 import android.location.Location;
 
-public interface BaseFeatureContract {
+public interface ActivityContract {
 
 
     interface View {
 
-
-        ViewType getViewType();
-
-        enum ViewType {
-            DIALOG, FRAGMENT
-        }
     }
 
     interface Presenter {

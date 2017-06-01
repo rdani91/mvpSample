@@ -1,20 +1,10 @@
 package tourist.rozsa.daniel.hu.presenter.feature2;
 
-import android.location.Location;
-
 public class Feature2Presenter implements Feature2Contract.Presenter {
-    @Override
-    public void onLocationChanged(Location l) {
 
-    }
+    private final Feature2Contract.View view;
 
-    @Override
-    public void onDestroy() {
-
-    }
-
-    @Override
-    public void setView(Feature2Contract.View view) {
-
+    public Feature2Presenter(Feature2Contract.View view) {
+        this.view = view;
     }
 }
