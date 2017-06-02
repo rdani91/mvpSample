@@ -1,13 +1,15 @@
 package tourist.rozsa.daniel.hu.presenter.feature2;
 
+import tourist.rozsa.daniel.hu.presenter.LivestreamContract;
+
 public interface Feature2Contract {
 
 
-    interface View {
+    interface View extends LivestreamContract.View {
 
     }
 
-    interface Presenter {
+    interface Presenter extends LivestreamContract.Presenter {
     }
 
 

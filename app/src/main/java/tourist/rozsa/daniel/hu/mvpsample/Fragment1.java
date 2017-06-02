@@ -21,4 +21,13 @@ public class Fragment1 extends Fragment implements Feature1Contract.View {
     }
 
 
+    @Override
+    public void refreshUiAfterLiveStreamClosed() {
+
+    }
+
+    @Override
+    public void refreshUiAfterLiveStreamOpened() {
+
+    }
 }

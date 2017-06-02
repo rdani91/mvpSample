@@ -6,6 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+    void onLiveStreamStateChange(int newState) {
+
+    }
+
     private void loadFragmentToTop(Fragment targetFragment) {
         getSupportFragmentManager()
                 .beginTransaction()

@@ -7,4 +7,15 @@ public class Feature2Presenter implements Feature2Contract.Presenter {
     public Feature2Presenter(Feature2Contract.View view) {
         this.view = view;
     }
+
+
+    @Override
+    public void onLiveStreamStateChange(int newState) {
+
+    }
+
+    @Override
+    public void onDestroy() {
+
+    }
 }
