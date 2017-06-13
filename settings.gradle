@@ -1,1 +1,1 @@
-include ':app', ':presenter'
+include ':view', ':presenter', ':model'
